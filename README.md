@@ -15,15 +15,15 @@ OPENAI_API_KEY=<your_openai_api_key>
 
 ### Endpoints
 
-- **/fetch_skills** (POST):
+**/fetch_skills** (POST):
 - **Input**: JSON object containing `job_description` and `name`.
 - **Output**: Extracts soft skills, technical skills, and estimated years of experience from the job description. Returns retrieved skills.
 
-- **/generate_soft_skill_questions** (POST):
+**/generate_soft_skill_questions** (POST):
 - **Input**: JSON object containing `soft_skills`, `name`, and `experience`.
 - **Output**: Generates soft skill related questions based on the provided soft skills and experience.
 
-- **/generate_technical_questions** (POST):
+**/generate_technical_questions** (POST):
 - **Input**: JSON object containing `technical_skills`, `name`, and `experience`.
 - **Output**: Generates technical skill related questions based on the provided technical skills and experience.
 
